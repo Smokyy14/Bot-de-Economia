@@ -6,6 +6,7 @@ module.exports = {
   use: "-crime",
   description: "Comete un crimen para obtener monedas.",
   category: "💰 Economia",
+  subcategory: 'Economia',
   grupo: true,
   economy: true,
 
