@@ -4,6 +4,7 @@ module.exports = {
   use: "-reseteconomy",
   description: "Elimina la economía de todos los usuarios de este grupo.",
   category: "💰 Economia",
+  subcategory: "Configuración",
   economy: true,
   admin: true,
   
