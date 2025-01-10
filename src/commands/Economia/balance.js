@@ -4,6 +4,7 @@ module.exports = {
     use: '-balance [@usuario]',
     description: 'Muestra la balanza económica de un usuario.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy: true,
     
