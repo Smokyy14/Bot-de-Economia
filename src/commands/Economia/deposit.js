@@ -4,6 +4,7 @@ module.exports = {
     use: '-deposit <cantidad | all>',
     description: 'Deposita monedas desde la billetera al banco.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy:  true,
     
