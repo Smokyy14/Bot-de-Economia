@@ -4,6 +4,7 @@ module.exports = {
     use: '-withdraw <cantidad | all>',
     description: 'Retira monedas del banco a tu billetera.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy:  true,
     
