@@ -22,8 +22,9 @@ async function connectToWA() {
     browser,
     version: [2, 3000, 1015901307],
   });
-  
-  sock.markOnlineOnConnect
+
+  // Elimina el comentario para que el bot figure siempre "En Linea"
+  // sock.markOnlineOnConnect  
     
   if (!sock.authState.creds.registered) {
     const input = (txt) => new Promise((resolve) => rl.question(txt, resolve));
