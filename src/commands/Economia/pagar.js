@@ -4,6 +4,7 @@ module.exports = {
     use: '-pay @usuario <cantidad>',
     description: 'Paga a otro usuario desde tu billetera.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy:  true,
     
