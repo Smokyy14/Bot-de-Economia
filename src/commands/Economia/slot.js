@@ -4,6 +4,7 @@ module.exports = {
     use: '-slot < cantidad >',
     description: 'Juega a la máquina tragamonedas y prueba tu suerte.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy: true,
     
