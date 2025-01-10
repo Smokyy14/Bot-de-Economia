@@ -6,6 +6,7 @@ module.exports = {
   use: '-robar @usuario',
   description: 'Roba monedas de la billetera de otro usuario.',
   category: '💰 Economia',
+  subcategory: 'Economia',
   grupo: true,
   economy:  true,
   
