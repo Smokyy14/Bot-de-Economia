@@ -4,6 +4,7 @@ module.exports = {
     use: '-coinflip < cantidad / all >',
     description: 'Juega a lanzar una moneda para duplicar tu apuesta o perderla.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     grupo: true,
     economy:  true,
     
