@@ -6,6 +6,7 @@ module.exports = {
   use: "-work",
   description: "Trabaja para obtener monedas.",
   category: "💰 Economia",
+  subcategory: 'Economia',
   grupo: true,
   economy:  true,
 
