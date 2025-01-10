@@ -4,7 +4,6 @@ module.exports = {
     use: "!join < enlace >",
     description: "Me permite unirme a tus grupos",
     category: "Une a tu bot a tus grupos favoritos.",
-    premium: true,
     
     execute: async (sock, msg, args) => {
       const groupLink = args[0]; 
