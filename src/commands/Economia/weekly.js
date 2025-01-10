@@ -6,6 +6,7 @@ module.exports = {
   use: "-weekly",
   description: "Recibe tu recompensa semanal.",
   category: "💰 Economia",
+  subcategory: 'Economia',
   grupo: true,
   economy:  true,
   
