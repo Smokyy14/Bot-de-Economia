@@ -4,6 +4,7 @@ module.exports = {
   use: "-roulette < color > < cantidad / all >",
   description: "Juega a la ruleta y apuesta tus monedas.",
   category: "💰 Economia",
+  subcategory: 'Economia',
   grupo: true,
   economy: true,
   
