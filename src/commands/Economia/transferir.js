@@ -4,6 +4,7 @@ module.exports = {
   use: '-transferir <monto> @usuario',
   description: 'Transfiere dinero a otro usuario.',
   category: '💰 Economia',
+  subcategory: 'Economia',
   grupo: true,
   economy: true,
 
