@@ -6,6 +6,7 @@ module.exports = {
   use: "-daily",
   description: "Recibe tu recompensa diaria",
   category: "💰 Economia",
+  subcategory: 'Economia',
   grupo: true,
 
   async execute(sock, msg, args) {
