@@ -1,0 +1,28 @@
+{
+  "name": "RichBot",
+  "version": "69420",
+  "description": "Un bot hecho para la comunidad de Arena, aun en trabajo...",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "npm install && node .",
+    "test": "node index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/collection": "^2.1.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.2",
+    "better-sqlite3": "9.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fastest-levenshtein": "^1.0.16",
+    "pino": "^9.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "quick.db": "^9.1.7",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
