@@ -57,7 +57,7 @@ module.exports = {
       return msg.reply("```Este comando es solo para desarrolladores.```");
     }
 
-    // Admin-only command in group chat
+    // Restringir uso de comandos a solo administradores, usar: "admin: true,"
     if (key.remoteJid.includes("@g.us") && command.admin) {
       const grupoMetadata = await sock.groupMetadata(key.remoteJid);
       const grupoAdmins = grupoMetadata.participants
