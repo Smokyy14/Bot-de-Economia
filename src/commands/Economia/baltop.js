@@ -4,6 +4,7 @@ module.exports = {
     use: '-baltop',
     description: 'Muestra un leaderboard económico del grupo.',
     category: '💰 Economia',
+    subcategory: 'Economia',
     economy:  true,
     grupo: true,
 
